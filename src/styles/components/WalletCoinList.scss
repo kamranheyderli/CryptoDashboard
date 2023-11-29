@@ -1,0 +1,44 @@
+.wallet_coins_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: white;
+    &.dark_mode {
+        background-color: #171717;
+        border: none;
+    }
+
+    .left {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        .image {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #e8e8e8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 70%;
+            }
+        }
+        .info {
+            h5 {
+                font-size: 14px;
+                color: #171717;
+            }
+            span {
+                font-size: 12px;
+                color: #848484;
+            }
+        }
+    }
+    .right {
+        span {
+            font-size: 14px;
+        }
+    }
+}

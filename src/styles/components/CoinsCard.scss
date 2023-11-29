@@ -1,0 +1,76 @@
+.coins_card {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e8e8e8;
+    padding: 25px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: white;
+
+    &.bg_dark_card {
+        background-color: #171717;
+        border: none;
+    }
+
+    .left {
+        display: flex;
+        column-gap: 15px;
+        .rating {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .star_icons {
+                font-size: 25px;
+            }
+        }
+        .coins_info {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            .image {
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #e8e8e8;
+                img {
+                    width: 70%;
+                }
+            }
+            .info {
+                display: flex;
+                flex-direction: column;
+
+                h5 {
+                    font-size: 14px;
+                    color: #171717;
+                }
+                span {
+                    font-size: 12px;
+                    color: #848484;
+                }
+            }
+        }
+    }
+    .right {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        span {
+            background-color: #1abc7b;
+            padding: 5px;
+            font-size: 13px;
+            color: white;
+            border-radius: 5px;
+
+            &.increase {
+                background-color: #1abc7b;
+            }
+            &.decrease {
+                background-color: red;
+            }
+        }
+    }
+}

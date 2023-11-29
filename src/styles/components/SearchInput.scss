@@ -1,0 +1,22 @@
+.input_container {
+    position: relative;
+    height: 32px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 8px;
+    border-radius: 5px;
+    background-color: white;
+    input {
+        width: 80%;
+        margin-left: 15px;
+        &:focus {
+            outline: none;
+        }
+    }
+    .search_icons {
+        position: absolute;
+        left: 5px;
+        top: 7px;
+    }
+}

@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f3eeee;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.color__light {
+    color: #ffffff !important;
+}
+
+.color__dark {
+    color: #161616 !important;
+}
+
+.bg__light {
+    background-color: #FFFDFE !important;
+}
+
+.bg__dark {
+    background-color: #161616 !important;
+}
+
+.bg__transparent {
+    background-color: transparent !important;
+}
+
+// components
+@import "../components/Header.scss";
+@import "../components/FontScale.scss";
+@import "../components/SearchInput.scss";
+@import "../components/Wallet.scss";
+@import "../components/WalletCoinList.scss";
+@import "../components/BitCoinsList.scss";
+@import "../components/CoinsCard.scss";
+@import "../components/LeaderBoard.scss";
+@import "../components/LeaderCard.scss";
+@import "../components/SideBar.scss";
+@import "../components/DarkMode.scss";
+// pages
+@import "../pages/Home.scss";
+@import "../layout/MainLayout.scss";

@@ -1,0 +1,71 @@
+.bitcoins_list {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    .list_sorting {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        .name {
+            display: flex;
+            column-gap: 10px;
+            span {
+                color: gray;
+                font-size: 13px;
+            }
+            .icons {
+                display: flex;
+                flex-direction: column;
+                font-size: 10px;
+            }
+        }
+        .right {
+            display: flex;
+            column-gap: 10px;
+            .price {
+                display: flex;
+                column-gap: 10px;
+                span {
+                    color: gray;
+                    font-size: 13px;
+                }
+                .icons {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 10px;
+                }
+            }
+            .time_changes {
+                display: flex;
+                column-gap: 10px;
+                span {
+                    color: gray;
+                    font-size: 13px;
+                }
+                .icons {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .coins_list {
+        margin-top: 15px;
+    }
+    .load_more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        button {
+            width: 100%;
+            height: 40px;
+            color: white;
+            background-color: #343a40;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    }
+}

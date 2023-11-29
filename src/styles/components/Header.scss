@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+    margin-top: 20px;
+    .all_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            h2 {
+                font-size: 30px;
+            }
+        }
+        .right {
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+        }
+        .hamburger {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ham_icon {
+                width: 25px;
+                height: 25px;
+                color: gray;
+                &.ham_dark {
+                    color: #e0f64b;
+                }
+            }
+        }
+    }
+}
